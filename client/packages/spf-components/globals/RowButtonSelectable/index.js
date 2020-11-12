@@ -8,7 +8,7 @@ const FlexWrapperButton = styled(FlexWrapper)`
   border-radius: 8px;
   align-items: center;
   width: 100%;
-  padding: 15px 5px;
+  padding: 10px 10px;
   transition: 0.3s;
   background-color:${props => props.selected && props.theme.colors.darkAlpha[4]};
   &:hover {
@@ -20,8 +20,8 @@ const RowButtonSelectable = ({ icon: IconComponent, children,selected, onClick }
   const { colors: { text } } = useTheme();  
   return (
     <FlexWrapperButton selected={selected} onClick={onClick}>
-      <Wrapper mr="5px">{IconComponent && <IconComponent color={text.primary} />}</Wrapper>
-      <BaseLabel fontWeight="bold">{children}</BaseLabel>
+      <Wrapper mr={3}>{IconComponent && <IconComponent color={text.primary} size={25} />}</Wrapper>
+      <BaseLabel fontWeight="bold" fontSize={5}>{children}</BaseLabel>
     </FlexWrapperButton>
   );
 };

@@ -7,5 +7,7 @@ export const colors = {
     primary: "#ffffff",
     smooth: "#bdbdbd",
   },
+  navBar:"#000000",
+  footer : "#282828",
   page : "#191414",
 };

@@ -15,19 +15,23 @@ const spfDesingLanguage = {
     medium: 20,
     complete: "100%",
   },
-  dimensions : {
-    navBar : {
-      w : "180px"
+  dimensions: {
+    navBar: {
+      w: "250px",
     },
-    topBar : {
-      h : "60px",
+    topBar: {
+      h: "60px",
     },
-    main : {
-      
+    main: {},
+    nowPlaying: {
+      h: "80px",
     },
-    nowPlaying : {
-      h : "80px"
-    }
-  }
+  },
+  borders: {
+    primary : `2px solid ${colors.primary}`,
+    lightAlpha : [
+      `2px solid ${colors.text.primary}`
+    ]
+  },
 };
 export default spfDesingLanguage;

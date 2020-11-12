@@ -16,6 +16,7 @@ const AppLayouts = {
   NavBar: styled.div`
     grid-area: nav-bar;
     width:${props => props.theme.dimensions.navBar.w};
+    background-color:${props => props.theme.colors.navBar};
   `,
   TopBar: styled.div`
     grid-area: main-view;
@@ -25,6 +26,7 @@ const AppLayouts = {
   NowPlaying: styled.div`
     grid-area: now-playing;
     height:${props => props.theme.dimensions.nowPlaying.h};
+    background-color:${props => props.theme.colors.footer};
   `,
   MainView: styled.div`
     grid-area: main-view;
