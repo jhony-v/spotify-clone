@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@spf-components/*" : ["packages/spf-components/*"],
+            "@spf-design-language/*" : ["packages/spf-design-language/*"],
+            "@spf-common/*" : ["packages/spf-common/*"],
+            "@theme/*" : ["theme/*"],
+            "@views/*" : ["views/*"],
+        },
+        "jsx": "react"
+    },
+}
