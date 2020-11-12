@@ -1,6 +1,6 @@
 import { useTheme } from "@emotion/react";
 import styled from "@emotion/styled";
-import NativeLabel from "@spf-components/common/NativeLabel";
+import BaseLabel from "@spf-components/common/BaseLabel";
 import FlexWrapper from "@spf-components/common/Wrappers/FlexWrapper";
 import Wrapper from "@spf-components/common/Wrappers/Wrapper";
 
@@ -21,7 +21,7 @@ const RowButtonSelectable = ({ icon: IconComponent, children,selected, onClick }
   return (
     <FlexWrapperButton selected={selected} onClick={onClick}>
       <Wrapper mr="5px">{IconComponent && <IconComponent color={text.primary} />}</Wrapper>
-      <NativeLabel fontWeight="bold">{children}</NativeLabel>
+      <BaseLabel fontWeight="bold">{children}</BaseLabel>
     </FlexWrapperButton>
   );
 };
