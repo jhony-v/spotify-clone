@@ -1,10 +1,11 @@
 export const colors = {
   primary: "#1DB954",
-  primaryAlpha: ["", "", "", "", "", ""],
+  primaryAlpha: ["#b9f6ca", "#00e676", "#00c853", "#4caf50", "#2e7d32"],
   dark: "#191414",
-  darkAlpha: ["", "", "", "", "", ""],
+  darkAlpha: ["#e0e0e0", "#e0e0e0", "#757575", "#616161", "#424242", "#212121"],
   text: {
-    primary: "#fff",
-    smooth: "gray",
+    primary: "#ffffff",
+    smooth: "#bdbdbd",
   },
+  page : "#191414",
 };

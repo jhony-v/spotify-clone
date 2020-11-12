@@ -3,6 +3,7 @@
         "baseUrl": ".",
         "paths": {
             "@spf-components/*" : ["packages/spf-components/*"],
+            "@spf-containers/*" : ["packages/spf-containers/*"],
             "@spf-design-language/*" : ["packages/spf-design-language/*"],
             "@spf-common/*" : ["packages/spf-common/*"],
             "@theme/*" : ["theme/*"],
