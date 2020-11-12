@@ -1,16 +1,25 @@
-import BaseImage from "@spf-components/common/ImageAvatar";
+import { memo, useState } from "react";
+import BaseImage from "@spf-components/common/BaseImage";
 import TextParagraph from "@spf-components/common/TextParagraph";
-import FlexWrapper from "@spf-components/common/Wrappers/FlexWrapper";
 import Wrapper from "@spf-components/common/Wrappers/Wrapper";
+import ButtonPlayerAnimatable from "./Atoms/ButtonPlayerAnimatable";
+import { S } from "./Atoms/elements";
 
 const MusicPrimaryCard = ({ image, title, detail }) => {
+  const [open, setOpen] = useState(false);
   return (
-    <FlexWrapper w={150}>
-      <Wrapper mb={5}>
-        <BaseImage src={image} size={150} />
+    <S.MusicCard
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <Wrapper flexDirection="column">
+        <S.ImageWrapper>
+          <BaseImage src={image} />
+          <ButtonPlayerAnimatable open={open} />
+        </S.ImageWrapper>
+        <TextParagraph title={title} detail={detail} />
       </Wrapper>
-      <TextParagraph title={title} detail={detail} />
-    </FlexWrapper>
+    </S.MusicCard>
   );
 };
-export default MusicPrimaryCard;
+export default memo(MusicPrimaryCard);

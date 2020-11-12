@@ -30,6 +30,16 @@ const AppLayouts = {
   `,
   MainView: styled.div`
     grid-area: main-view;
+    overflow-y:auto;
+    &::-webkit-scrollbar {
+      background-color:transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color:rgba(100,100,100,.5);
+    }
+    &::-webkit-scrollbar-button {
+      height:5px;
+    }
   `,
 };
 

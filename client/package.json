@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.0.0",
     "@styled-system/css": "^5.1.5",
     "@styled-system/theme-get": "^5.1.2",
+    "faker": "^5.1.0",
     "framer-motion": "^2.9.4",
     "next": "10.0.1",
     "react": "17.0.1",

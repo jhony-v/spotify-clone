@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
-import { compose, space } from "styled-system";
+import { compose, layout, space } from "styled-system";
 
 const Wrapper = styled.div`
-  ${compose(space)}
+  ${compose(space,layout)}
 `;
 
 export default Wrapper;

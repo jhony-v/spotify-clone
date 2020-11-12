@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
-import { variant, compose } from "styled-system";
+import { variant, compose, layout } from "styled-system";
 
-const BaseImage = styled.image`
+const BaseImage = styled.img`
   display: block;
   object-fit: cover;
   ${variant({
