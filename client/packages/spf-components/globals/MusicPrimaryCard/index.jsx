@@ -14,7 +14,7 @@ const MusicPrimaryCard = ({ image, title, detail }) => {
     >
       <Wrapper flexDirection="column">
         <S.ImageWrapper>
-          <BaseImage src={image} />
+          <BaseImage src={image} alt="" />
           <ButtonPlayerAnimatable open={open} />
         </S.ImageWrapper>
         <TextParagraph title={title} detail={detail} />

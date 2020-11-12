@@ -11,7 +11,7 @@ export default function GlobalResetStyles() {
           box-sizing:border-box;
         }
         a {
-          outline: none;
+          text-decoration:none;
         }
         button,
         input,

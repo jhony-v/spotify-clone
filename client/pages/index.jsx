@@ -18,7 +18,7 @@ const ListMusics = () => {
           }}
         >
           {Array(5).fill(0).map((e,i)=>(
-            <MusicPrimaryCard title={faker.name.lastName()} detail={faker.name.firstName() + " " + faker.name.lastName()} image={faker.random.image()} />
+            <MusicPrimaryCard  key={i} title={faker.name.lastName()} detail={faker.name.firstName() + " " + faker.name.lastName()} image={faker.random.image()} />
           ))}
         </ListMusicPreviewHorizontal>
     </Wrapper>

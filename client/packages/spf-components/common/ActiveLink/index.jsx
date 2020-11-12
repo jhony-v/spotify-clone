@@ -7,7 +7,9 @@ const ActiveLink = ({ children, href, ...restProps }) => {
   const active = asPath === href;
   return (
     <Link {...restProps} href={href}>
-      {children({ active })}
+      <a>
+        {children({ active })}
+      </a>
     </Link>
   );
 };
