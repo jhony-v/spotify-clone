@@ -21,7 +21,12 @@ const AppLayouts = {
   TopBar: styled.div`
     grid-area: main-view;
     position:relative;
+    display:flex;
+    align-items:center;
+    z-index:2;
+    padding:0 50px;
     height:${props => props.theme.dimensions.topBar.h};
+    background-color:${props => props.theme.colors.topBar};
   `,
   NowPlaying: styled.div`
     grid-area: now-playing;

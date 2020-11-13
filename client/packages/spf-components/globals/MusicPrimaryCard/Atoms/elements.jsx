@@ -8,10 +8,11 @@ S.MusicCard = styled(BaseCard)`
   padding: 15px;
   width: 200px;
   height: 290px;
+  cursor:pointer;
   ${BaseImage} {
     width: 100%;
     height: 180px;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 `;
 

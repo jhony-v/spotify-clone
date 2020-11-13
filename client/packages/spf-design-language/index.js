@@ -17,7 +17,7 @@ const spfDesingLanguage = {
   },
   dimensions: {
     navBar: {
-      w: "250px",
+      w: "230px",
     },
     topBar: {
       h: "60px",

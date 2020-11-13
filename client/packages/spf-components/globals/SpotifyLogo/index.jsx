@@ -11,7 +11,7 @@ const SpotifyLogo = () => {
         fontWeight="bold"
         fontSize={7}
         css={css({
-          marginLeft: "10px",
+          marginLeft: "6px",
         })}
       >
         Spotify

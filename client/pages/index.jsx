@@ -1,10 +1,9 @@
 import Wrapper from "@spf-components/common/Wrappers/Wrapper";
 import ListMusicPreviewHorizontal from "@spf-components/globals/ListMusicPreviewHorizontal";
 import MusicPrimaryCard from "@spf-components/globals/MusicPrimaryCard";
+import UserButtonProfile from "@spf-components/globals/UserButtonProfile";
 import ContainerDrawer from "@spf-containers/ContainerDrawer";
 import faker from "faker";
-
-
 
 const ListMusics = () => {
   return(
@@ -27,7 +26,7 @@ const ListMusics = () => {
 
 export default function Index() {
   return (
-    <ContainerDrawer>
+    <ContainerDrawer topBar={<UserButtonProfile/>}>
       <Wrapper mt="100px">
         <Wrapper m="auto" width="95%">
         <ListMusics/>

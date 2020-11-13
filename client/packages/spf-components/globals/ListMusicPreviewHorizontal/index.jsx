@@ -14,7 +14,7 @@ const ListMusicPreviewHorizontal = ({
   return (
     <Wrapper>
       <FlexWrapper alignItems="center">
-        <TextParagraph title={title} detail={description} titleSize={8} />
+        <TextParagraph title={title} detail={description} titleSize={7} />
         {viewMore && (
           <Wrapper ml="auto">
             <BaseLabel color="text.smooth" fontWeight="bold" fontSize={5}>SEE ALL</BaseLabel>

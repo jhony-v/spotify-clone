@@ -6,12 +6,12 @@ const BaseCard = styled.div`
   transition: background 200ms;
   position: relative;
   &:hover {
-    background: ${(props) => props.theme.colors.darkAlpha[4]};
+    background: ${(props) => props.theme.colors.darkAlpha[5]};
   }
   ${variant({
     variants: {
       default: {
-        bg: "darkAlpha.5",
+        bg: "darkAlpha.6",
       },
       outline: {
         border: "lightAlpha.0",

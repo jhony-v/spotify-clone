@@ -10,7 +10,7 @@ const FlexWrapperButton = styled(FlexWrapper)`
   width: 100%;
   padding: 10px 10px;
   transition: 0.3s;
-  background-color:${props => props.selected && props.theme.colors.darkAlpha[4]};
+  background-color:${props => props.selected && props.theme.colors.darkAlpha[5]};
   &:hover {
     background: ${(props) => props.theme.colors.darkAlpha[5]};
   }
