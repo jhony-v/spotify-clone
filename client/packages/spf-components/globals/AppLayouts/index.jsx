@@ -27,6 +27,7 @@ const AppLayouts = {
     grid-area: now-playing;
     height:${props => props.theme.dimensions.nowPlaying.h};
     background-color:${props => props.theme.colors.footer};
+    position:relative;
   `,
   MainView: styled.div`
     grid-area: main-view;
